@@ -119,7 +119,7 @@
 
 .modal {
   background-color: white;
-  width: 40%;
+  width: 100%;
   z-index: 1010;
   display: flex;
   flex-direction: column;
@@ -134,7 +134,7 @@
 .auth__content {
   width: 100%;
   height: 90%;
-  padding: 24px;
+  padding: 48px 32px 28px;
 }
 
 .modal__wrapper {
