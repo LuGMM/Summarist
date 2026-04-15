@@ -62,11 +62,11 @@ export const AudioPlayer = ({ title, author, cover, audioLink }) => {
       const backward = document?.getElementById("backward");
 
       forward.addEventListener("click", () => {
-        audio.currentTime = audio.currentTime + 5;
+        audio.currentTime = audio.currentTime + 10;
       });
 
       backward.addEventListener("click", () => {
-        audio.currentTime = audio.currentTime - 5;
+        audio.currentTime = audio.currentTime - 10;
       });
     }
   }, []);
